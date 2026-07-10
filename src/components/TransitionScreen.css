@@ -1,0 +1,15 @@
+.transition-screen {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0f1f13;
+  color: #fff;
+  text-align: center;
+}
+
+.transition-screen__text {
+  margin: 0;
+  font-size: 64px;
+  line-height: 1.3;
+}

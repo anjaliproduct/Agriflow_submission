@@ -1,0 +1,50 @@
+.app {
+  display: flex;
+}
+
+.app__main {
+  flex: 1;
+  margin-left: 64px;
+}
+
+p.problem-statement__eyebrow {
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+p.problem-statement__eyebrow--spaced {
+  margin-top: 64px;
+}
+
+p.problem-statement__text {
+  margin: 14px 0 0;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+}
+
+p.closing-note__label {
+  margin: 0 0 24px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+p.closing-note__text {
+  max-width: 900px;
+  margin: 0 auto 24px;
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+p.closing-note__signoff {
+  margin: 32px 0 0;
+  font-size: 1rem;
+  font-weight: 500;
+  opacity: 0.7;
+}

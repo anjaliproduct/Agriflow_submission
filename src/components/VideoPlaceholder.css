@@ -1,0 +1,44 @@
+.video-placeholder {
+  position: relative;
+  box-sizing: content-box;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  aspect-ratio: 1920 / 1039;
+  border-top: 10px solid #0f1f13;
+  border-right: 10px solid #0f1f13;
+  border-bottom: 10px solid #0f1f13;
+  border-left: none;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fafafa;
+  padding: 0;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.video-placeholder__thumbnail {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.video-placeholder__icon {
+  position: relative;
+  font-size: 48px;
+  color: #0f1f13;
+  opacity: 0.8;
+}
+
+.video-placeholder--player {
+  display: block;
+  object-fit: cover;
+  object-position: top;
+  background: #000;
+  cursor: default;
+}

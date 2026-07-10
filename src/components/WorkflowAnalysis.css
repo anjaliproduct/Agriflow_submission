@@ -1,0 +1,113 @@
+.workflow-analysis {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.persona-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 48px;
+}
+
+.persona-row--reverse {
+  flex-direction: row-reverse;
+}
+
+.persona-flow {
+  flex: 1 1 320px;
+  min-width: 280px;
+}
+
+.persona-flow__header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.persona-flow__icon {
+  font-size: 32px;
+  line-height: 1;
+}
+
+.persona-flow__name {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.persona-flow__steps {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.persona-flow__steps::before {
+  content: "";
+  position: absolute;
+  left: 20px;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: #ccc;
+  z-index: 0;
+}
+
+.persona-flow__step {
+  position: relative;
+  z-index: 1;
+  background: #fff;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 2.39px 2.39px 0 rgba(0, 0, 0, 0.25);
+}
+
+.persona-row__cards {
+  flex: 1 1 400px;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.card-group__label {
+  margin: 0 0 12px;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.card-group__cards {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.card-group__card {
+  flex: 1 1 140px;
+  min-width: 140px;
+  min-height: 120px;
+  padding: 12px 14px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.card-group__card p {
+  margin: 0 0 4px;
+}
+
+.card-group__card p:last-child {
+  margin-bottom: 0;
+}
+
+.card-group__card--pain {
+  background: #f2a79e;
+}
+
+.card-group__card--opportunity {
+  background: #b7e4c7;
+}

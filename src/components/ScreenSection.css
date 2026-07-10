@@ -1,0 +1,31 @@
+.screen-section__row {
+  display: flex;
+  align-items: flex-start;
+  gap: 48px;
+}
+
+.screen-section__row--reverse {
+  flex-direction: row-reverse;
+}
+
+.screen-section__mockup {
+  flex: 0 0 740px;
+  min-width: 0;
+}
+
+.screen-section__centered {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.screen-section__dual {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+.screen-mockup-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}

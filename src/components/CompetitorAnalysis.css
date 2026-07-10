@@ -1,0 +1,59 @@
+.competitor-analysis h3.competitor-analysis__heading {
+  margin: 0 0 36px;
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.competitor-logos {
+  display: flex;
+  gap: 32px;
+  margin: 0 0 64px;
+}
+
+.competitor-logos__item {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 28px 16px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.06);
+}
+
+.competitor-logos__label {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #444;
+  text-align: center;
+}
+
+.insight-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 0 40px;
+}
+
+.insight-table th {
+  text-align: left;
+  font-size: 0.95rem;
+  font-weight: 600;
+  padding: 0 24px 12px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.insight-table td {
+  padding: 14px 24px 14px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.insight-table tr:last-child td {
+  border-bottom: none;
+}
+
+.insight-table td:first-child,
+.insight-table th:first-child {
+  width: 40%;
+}
+

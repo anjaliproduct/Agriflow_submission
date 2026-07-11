@@ -2,6 +2,7 @@ import SideNav from "./components/SideNav";
 import Section from "./components/Section";
 import TransitionScreen from "./components/TransitionScreen";
 import WorkflowAnalysis from "./components/WorkflowAnalysis";
+import StakeholderEcosystem from "./components/StakeholderEcosystem";
 import CompetitorAnalysis from "./components/CompetitorAnalysis";
 import KeyInsights from "./components/KeyInsights";
 import Personas from "./components/Personas";
@@ -39,6 +40,9 @@ const sectionContent = {
   },
   "part1-current-workflow-analysis": {
     body: <WorkflowAnalysis />,
+  },
+  "part1-stakeholder-ecosystem": {
+    body: <StakeholderEcosystem />,
   },
   "part1-competitor-analysis": {
     body: <CompetitorAnalysis />,

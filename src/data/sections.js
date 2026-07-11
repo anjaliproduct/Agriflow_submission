@@ -9,6 +9,7 @@ function slugify(text) {
 export const partI = [
   "Problem statement",
   "Current workflow analysis",
+  "Stakeholder ecosystem",
   "Competitor analysis",
   "Key insights",
 ].map((title) => ({ id: `part1-${slugify(title)}`, title }));

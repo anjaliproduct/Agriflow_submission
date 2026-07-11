@@ -3,7 +3,7 @@ import "./WorkflowAnalysis.css";
 const personas = [
   {
     id: "manager",
-    icon: "🧑‍💼",
+    icon: "👨‍💼",
     name: "Manager",
     steps: [
       "1. Receive Inventory Updates",

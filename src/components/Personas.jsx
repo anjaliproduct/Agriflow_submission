@@ -2,7 +2,7 @@ import "./Personas.css";
 
 const personas = [
   {
-    icon: "🧑‍💼",
+    icon: "👨‍💼",
     name: "Manager",
     goals: [
       "Fulfill buyer orders successfully",

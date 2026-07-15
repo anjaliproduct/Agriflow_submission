@@ -4,7 +4,6 @@ import TransitionScreen from "./components/TransitionScreen";
 import WorkflowAnalysis from "./components/WorkflowAnalysis";
 import StakeholderEcosystem from "./components/StakeholderEcosystem";
 import CompetitorAnalysis from "./components/CompetitorAnalysis";
-import KeyInsights from "./components/KeyInsights";
 import Personas from "./components/Personas";
 import Features from "./components/Features";
 import VideoPlaceholder from "./components/VideoPlaceholder";
@@ -46,9 +45,6 @@ const sectionContent = {
   },
   "part1-competitor-analysis": {
     body: <CompetitorAnalysis />,
-  },
-  "part1-key-insights": {
-    body: <KeyInsights />,
   },
   "part2-target-users": {
     body: <Personas />,

@@ -11,7 +11,6 @@ export const partI = [
   "Current workflow analysis",
   "Stakeholder ecosystem",
   "Competitor analysis",
-  "Key insights",
 ].map((title) => ({ id: `part1-${slugify(title)}`, title }));
 
 export const partII = [

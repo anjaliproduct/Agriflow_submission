@@ -71,7 +71,7 @@ const sectionContent = {
             <strong>User Goal:</strong> I want to monitor settlements and
             payments so that financial records remain accurate and transparent.
           </p>
-          <img className="flow-image flow-image--half" src="/Images/Flow%202.png" alt="Flow 2: Finance settlement diagram" />
+          <img className="flow-image" src="/Images/Flow%202.png" alt="Flow 2: Finance settlement diagram" />
         </div>
 
         <div className="flow-block">
